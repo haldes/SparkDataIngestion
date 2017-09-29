@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args){
-
+        System.out.println("Hello World");
         //Create a SparkContext to initialize
         SparkConf conf = new SparkConf().setMaster("local").setAppName("Word Count");
 
